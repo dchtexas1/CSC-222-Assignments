@@ -1,0 +1,64 @@
+#include<stdio.h>
+
+int x = 5;
+float f = 5;
+double d = 5;
+
+if (x == (int)(double)x)
+{
+	printf("\nTrue\n");
+}
+else
+{
+	printf("\nFalse\n");
+}
+
+if (x == (int)(double)x)
+{
+	printf("\nTrue\n");
+}
+else
+{
+	printf("\nFalse\n");
+}
+
+if (f == (float)(double)f)
+{
+	printf("\nTrue\n");
+}
+else
+{
+	printf("\nFalse\n");
+}
+if (f == -(-f))
+{
+	printf("\nTrue\n");
+}
+else
+{
+	printf("\nFalse\n");
+}
+if (1.0/2 == 1/2.0)
+{
+	printf("\nTrue\n");
+}
+else
+{
+	printf("\nFalse\n");
+}
+if (d * d >= 0.0)
+{
+	printf("\nTrue\n");
+}
+else
+{
+	printf("\nFalse\n");
+}
+if ((f + d) - f == d)
+{
+	printf("\nTrue\n");
+}
+else
+{
+	printf("\nFalse\n");
+}
